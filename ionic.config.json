@@ -1,0 +1,6 @@
+{
+  "name": "RadioApp",
+  "app_id": "",
+  "type": "ionic-angular",
+  "gulpStartupTasks": ["sass", "watch"]
+}
