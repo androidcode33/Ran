@@ -3,6 +3,12 @@ page-home {
 button{
     width: 300px;
     height: 90px;
+    background-color: #FFFF00;
 }
-
+ .scroll-content {
+      background-color: #428BCA;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
 }

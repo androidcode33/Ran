@@ -1,6 +1,7 @@
 import { Component, trigger, state, style, transition, animate, keyframes } from '@angular/core';
 import { NavController } from 'ionic-angular';
- 
+ import {MapPage} from '../map/map';
+
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html',
@@ -65,5 +66,7 @@ export class LoginPage {
   constructor(public navCtrl: NavController) {
  
   }
- 
+  mapmethod(){
+    this.navCtrl.push(MapPage);
+        }
 }

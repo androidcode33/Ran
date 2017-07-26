@@ -12,7 +12,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
  
   }
-  welcomepage(){
+  welcpage(){
     this.navCtrl.push(WelcomePage);
         }
 
